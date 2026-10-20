@@ -1,6 +1,6 @@
 # Synthetic Medical Record Generator
 
-An end-to-end CPU-compatible project for tabular synthetic data research. The supplied dataset is `diabetic_data.csv` (101,766 rows, 50 columns). It remains unmodified and is ignored by Git. `encounter_id` and `patient_nbr` are excluded from model features. The model features are the other 48 columns: 11 numeric and 37 categorical as loaded by pandas. `?` and blank lab results are treated as missing. Numeric values are median-filled and scaled; categorical values are one-hot encoded and decoded to source values.
+An end-to-end CPU-compatible project for tabular synthetic data research. The supplied dataset is `diabetic_data.csv` (101,766 rows, 50 columns). It is included in this repository so the app can run after cloning. `encounter_id` and `patient_nbr` are excluded from model features. The model features are the other 48 columns: 11 numeric and 37 categorical as loaded by pandas. `?` and blank lab results are treated as missing. Numeric values are median-filled and scaled; categorical values are one-hot encoded and decoded to source values.
 
 ## Install and run
 
