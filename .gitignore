@@ -1,0 +1,12 @@
+# Keep source medical data and generated/private artifacts out of version control
+*.csv
+artifacts/
+checkpoints/
+*.pt
+*.pth
+privacy_report.json
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.streamlit/secrets.toml
